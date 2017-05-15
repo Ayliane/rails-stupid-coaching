@@ -1,0 +1,15 @@
+<div>
+  <h2> <%= params[:query] %> </h2>
+  <br>
+  <h4>- You</h4>
+</div>
+
+<div>
+  <h2> <%= coach_answer_enhanced(@question) %></h2>
+  <br>
+  <h4>- Your coach</h4>
+</div>
+
+<div>
+  <%= link_to "Ask a new question", ask_path %>
+</div>
